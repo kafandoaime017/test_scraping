@@ -1,0 +1,14 @@
+{
+  "name": "test_scraping",
+  "version": "1.0.0",
+  "description": "test technique scraping leboncoin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aimé R KAFANDO",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.4.0"
+  }
+}
