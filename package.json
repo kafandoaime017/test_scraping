@@ -4,11 +4,20 @@
   "description": "test technique scraping leboncoin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scripts/ubereats.js",
+    "scrape:ubereats": "node src/scripts/ubereats.js",
+    "scrape:lbc": "node src/scripts/leboncoin.js"
   },
   "author": "Aimé R KAFANDO",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^24.4.0"
+    "axios": "^1.8.3",
+    "dotenv": "^16.4.7",
+    "fast-csv": "^5.0.2",
+    "puppeteer": "^24.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0",
+    "user-agents": "^1.1.481"
   }
 }
